@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(gh.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center;
+
+}
+label {
+	position: center;
+}
+
+.masuk{
+	background-color: #ccfbc4;
+	opacity: 0.9;
+	text-align: center;
+	position: center;
+	width: 40%;
+	margin-left: 50px;
+	margin-top: 20px;
+	color: black;
+	font-family: monospace;
+	font-size: 20px;
+	float: left;
+
+}
+
+.submit-box{
+	background: none;
+	padding: 15px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+.sign-up{
+	background-color: #ccfbc4;
+	opacity: 0.9;
+	text-align: center;
+	position: center;
+	width: 50%;
+	margin-left: 50px;
+	margin-top: 20px;
+	color: black;
+	font-family: monospace;
+	font-size: 20px;
+	float:left;
+}
+.user{
+	padding-left: 10px;
+	position: center;
+}
