@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>
+		WELCOME!
+	</h1>
+	<h2>
+		sebelum melanjutkan, yuk masuk akun/daftarkan diri kamu disini!
+	</h2>
+	<form class="login1" action="pr4 lanjut tugas.php" method="POST">
+		<fieldset>
+			<legend>MASUK AKUN</legend>
+			<p>
+				<label>Nama/NIM</label>
+			</p>
+			<p>
+				<input type="name" name="nama/nim" maxlength="30" placeholder="Masukkan Nama/NIM"/>
+			</p>
+			<p>
+				<label>Password</label>
+			</p>
+			<p>
+				<input type="password" name="password" size="15" placeholder="Password"/>
+			</p>
+			<p>
+				<button type="submit">Masuk</button>
+			</p>
+		</fieldset>
+		
+	</form>
+
+	<form class="login2" action="pr4 lanjut tugas.php" method="POST">
+		<fieldset>
+			<legend>DAFTAR AKUN</legend>
+			<p>
+				<label>Nama Lengkap</label>
+			</p>
+			<p>
+				<input type="name" name="nama" maxlength="30" placeholder="Masukkan Nama Lengkap"/>
+			</p>
+			<p>
+				<label>NIM</label>
+			</p>
+			<p>
+				<input type="text" name="NIM" placeholder="Masukkan NIM" maxlength="12" onkeypress="return event.charCode >= 48 && event.charCode <=57"/> 
+			</p>
+			<p>
+				<label>Password</label>
+			</p>
+			<p>
+				<input type="password" name="password" size="15" placeholder="Password"/>
+			</p>
+			<p>
+				<label>Konfirmasi Password</label>
+			</p>
+			<p>
+				<input type="password" name="confirmpassword" size="15" placeholder="Konfirmasi Password"/>
+			</p>
+			<p>
+				<label>Jenis Kelamin</label>
+			</p>
+			<p>
+				<input type="radio" name="Jenis Kelamin" value="Laki-Laki"/>Laki-Laki
+			</p>
+			<p>
+				<input type="radio" name="Jenis Kelamin" value="Perempuan"/>Perempuan
+			</p>
+			<br>
+			<p>
+				<label><input type="checkbox" name="pernyataan" value="Saya menyetujui persyaratan ini"/>Saya menyetujui persyaratan ini</label>
+			</p>
+			<p>
+				<button type="submit">Daftar</button>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
