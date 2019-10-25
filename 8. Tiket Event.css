@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	background-image: url("form2.jpg");
+	background-size: 50%;
+	background-position: top center;
+}
+a{
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.kotakheader {
+	height: 100px;
+	background-color: #0D7125;
+	opacity: 0.5;
+	margin-top: 10px;
+}
+
+/*.judul {
+	height: 50px;
+	width: 50px;
+	background-color: #01796F;
+}*/
+.kotakheader h1{
+	/*display: inline-block;*/
+	float: left;
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+}
+
+h1.satu {
+	transform: rotate(-90deg);
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+.dua{
+	color: red;
+	font-size: 40px;
+	text-align: center;
+	text-shadow: white;
+
+}
+.tiga{
+	color: white;
+}

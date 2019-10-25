@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="7. Event.css">
+	<link rel="icon" type="image/png" href="logo.png">
+	<title>NENPANEN-Jember E-Agriculture</title>
+</head>
+<body>
+	<div id="navbar">
+		<ul>
+			<h1>BERITA & EVENT</h1>
+			<div class="listmenu">
+			<li><a href="index.html">BERANDA</a></li>
+			<li><a href="2. Blog dan Galeri.html">BLOG DAN GALERI</a></li>
+			<li><a href="3. Berita dan Event.html">BERITA DAN EVENT</a></li>
+			<li><a href="4. Kontak Kami.html">KONTAK KAMI</a></li>
+			</div>
+		</ul>
+	</div>
+
+	<a href="3. Berita dan Event.html"><p class="ket1">BERITA & EVENT> </p>
+	<p class="ket2"> EVENT > </p></a>
+	<p class="ket3"> AGRI-EXPO JEMBER 2019</p>
+	<div class="listgambar">
+		<a href=""><img src="gb1.png" class="gb1">
+		<div class="kotakket"></div>
+		<p class="keterangan">AGRO - EXPO</p>
+		<p class="keterangan2">JEMBER</p>
+		<p class="keterangan3">2019</p></a>
+
+	<a href="8. Tiket Event.html"><h1 class="dapatkantiket"> DAPATKAN TIKET ANDA DI SINI >>> </h1></a>
+
+	<h4 class="cal">
+		<img class="cal" src="cal.png">
+		<label>20-27 September 2019</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img class="maps" src="maps.png">
+		<label>Taman Botani, Jember</label>
+	</h4>
+
+	<form class="teks">
+		<p>
+			Dalam rangka memperingati Hari Tani Nasional pada tanggal 24 September, 
+			<br>Kabupaten Jember mengadakan acara AGRI-EXPO JEMBER 2019.
+			<br>
+			<br>Acara ini akan dihadiri oleh banyak mitra tani unggulan dari berbagai daerah
+			<br>di Jember. Rangkaian kegiatan AGRI-EXPO JEMBER 2019 yang dipusatkan di
+			<br>Taman Botani, Jember ini akan diisi dengan workshop, pameran tanamn lokal,
+			<br>bazaar, serta diskusi isu pertanian terkini.
+			<br>
+			<br>Ayo, segera daftarkan diri anda untuk dapat menghadiri acara ini!
+		</p>
+	</form>
+
+	<div id="footer">
+		<form class="kiri">
+			<p class="atas">jember e-agriculture</p>
+			<p>DINAS PERTANIAN <br> KABUPATEN JEMBER</p>
+		</form>
+		<form class="kanan">
+				<h2>(0331) 482 787</h2>
+				<h4>Jl. Brawijaya No.71 Mangli, Kaliwates,<br>Kabupaten Jember, Jawa Timur 68131, Indonesia</h4>
+		</form>
+	</div>
+
+
+</body>
+</html>
