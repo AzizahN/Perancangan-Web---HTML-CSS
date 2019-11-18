@@ -1,0 +1,150 @@
+body {
+    background-image: url("1.png");
+    background-size: cover;
+}
+
+#navbar {
+    float: none;
+    position: absolute;
+    margin-top: 35px;
+    left: 25%;
+    /*transform: translate(-50%,-50%);*/
+    font-family: microsoft yahei ui;
+    font-size: 15px;
+
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(105, 105, 105);
+}
+
+#judul {
+    color: white;
+    margin-top: 100px;
+}
+
+.minijudul {
+    letter-spacing: 25px;
+    font-family: mistral;
+    font-size: 20px;
+    margin: 0 auto 35px;
+    display: block;
+
+}
+
+.judulutama {
+    letter-spacing: 3px;
+    line-height: 0px;
+    font-family: newsgoth cn bt;
+    font-size: 70px;
+    margin: auto;
+    display: block;
+}
+
+#memoquote {
+    color: white;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: tekton pro;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+#footer {
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    left: 0px;
+    margin-top: 430px;
+    width: 100%;
+    float: left;
+
+}
+
+.kiri {
+    margin-left: 30px;
+    font-family: perpetua;
+    font-size: 25px;
+    float: left;
+
+}
+
+p.atas {
+    font-family: mistral;
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+
+.kanan {
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.kanan h2 {
+    line-height: 3px;
+    font-family: rockwell;
+    font-size: 40px;
+}
+
+.kanan h4 {
+    font-family: segoe ui emoji;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 900px) {
+	#navbar{
+		position: absolute;
+	    margin-top: 35px;
+	    left: 13%;
+	    font-family: microsoft yahei ui;
+	    font-size: 7px;
+
+	}
+    .judulutama {
+        width: 100%;
+        font-size:50px;
+    }
+    .minijudul{
+    	font-size: 15px;
+    }
+
+    .kiri {
+        font-size: 20px;
+    }
+    form.kanan {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    form.kanan h2 {
+        font-size: 25px;
+        width: 210px;
+    }
+
+}
