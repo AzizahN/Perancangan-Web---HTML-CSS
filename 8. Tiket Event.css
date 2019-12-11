@@ -16,7 +16,7 @@ form.judul h1{
 	float: left;
 	opacity: none;
 	margin: 0;
-	width: 30%;
+	width: 25%;
 	text-align-last: center;
 	line-height: 
 }
@@ -39,7 +39,7 @@ form.judul h1.tiket{
 }
 form.judul h1.agriexpo{
 	color: red;
-	font-size: 70px;
+	font-size: 60px;
 	line-height; 
 	margin-top: 25px;
 	margin-left: 130px;
@@ -56,8 +56,8 @@ div.isi1{
 	background-color: black;
 	opacity: 0.7;
 	font-weight: bold;
-	width: 40%;
-	margin-left: 40px;
+	width: 30%;
+	margin-left: 10px;
 	margin-right: 0;
 	padding-left: 50px;
 	float: left;
@@ -71,8 +71,8 @@ div.isi2{
 	background-color: black;
 	opacity: 0.7;
 	font-weight: bold;
-	width: 40%;
-	margin-left: 0;
+	width: 30%;
+	margin-left: 20%;
 	padding:10px;
 	padding-left: 100px;
 	float: left;
@@ -91,10 +91,8 @@ div.pernyataan{
 	margin-left: 40px;
 	padding:10px;
 	float: left;
-	margin-top: 0;
+	margin-top: 10%;
 	text-align: center;
-
-
 }
 
 input{
