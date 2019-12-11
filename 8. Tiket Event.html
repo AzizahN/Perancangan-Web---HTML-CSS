@@ -21,7 +21,6 @@
 		<h4 class="cal">
 			<img class="cal" src="cal.png">
 			<label>20-27 September 2019</label>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<img class="maps" src="maps.png">
 			<label>Taman Botani, Jember</label>
 		</h4>
@@ -85,20 +84,25 @@
 			<p>
 				<label><input type="checkbox" name="pernyataan2"/>Kirimkan info lebih lanjut mengenai expo</label>
 			</p>
-			<p>
-				
-			</p>
-	<button type="submit" onclick="myFunction()">DAFTAR</button>
-	<p id="demo"></p>
+			</p><a href="index.html">
+			<button type="submit" onclick=" myFunction ()">DAFTAR</button>
+			<p id="demo"></a></p>
+		</div>
+	</fieldset>	
+
+
+
 	<script type="text/javascript">
 		function myFunction()
 		{
-			alert("Pendaftaran berhasil. Selamat, Anda telah terdaftar sebagi pengunjung dalam event ini!")
+			var c=confirm("Apakah Anda Ingin Membeli Tiket Ini?")
+		if (c==true)
+			alert("Terimakasih")
+		else
+			alert("Anda gagal Membeli")
 		}
-
 	</script>
-		</div>
-	</fieldset>
+*/
 
 	
 </body>
